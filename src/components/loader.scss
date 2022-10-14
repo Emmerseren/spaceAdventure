@@ -1,0 +1,20 @@
+.Loader{
+    
+    
+    div {
+        /* Finally, a use for "groove"! */
+        border: 24px dashed black;
+        display: table-cell;
+        border-radius: 999px;
+        animation: spin 15s linear infinite;
+        div:nth-child(1){
+            
+            border: 24px dashed yellow;
+        }
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+      }
+
+}
